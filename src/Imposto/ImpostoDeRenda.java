@@ -1,3 +1,5 @@
+package Imposto;
+
 import java.util.Scanner;
 
 public class ImpostoDeRenda {

@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "ImpostoDeRenda",
+            "request": "launch",
+            "mainClass": "Imposto.ImpostoDeRenda",
+            "projectName": "TrabalhoParadigmas - Bar_a0767b13"
+        },
+        {
+            "type": "java",
             "name": "Current File",
             "request": "launch",
             "mainClass": "${file}"
