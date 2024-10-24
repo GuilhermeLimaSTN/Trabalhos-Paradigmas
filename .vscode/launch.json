@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "Atletas.Main",
+            "projectName": "TrabalhoParadigmas - Bar_a0767b13"
+        },
+        {
+            "type": "java",
             "name": "ImpostoDeRenda",
             "request": "launch",
             "mainClass": "Imposto.ImpostoDeRenda",
