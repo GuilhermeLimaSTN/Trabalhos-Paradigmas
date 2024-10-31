@@ -59,12 +59,14 @@ public class Main {
 
         System.out.println("\n::: Relatório :::");
         System.out.printf("Peso médio dos atletas: %.2f\n", Relatorio.pesoMedio(atletas));
+        System.out.printf("altura média dos homens: %.2f\n", Relatorio.calAlturaMediaHomens(atletas));
         System.out.println("Atleta mais alto: " + Relatorio.encAtletaMaisAlto(atletas));
         System.out.printf("Porcentagem de homens: %.1f%%\n", Relatorio.calPorcentagemHomen(atletas));
 
         float alturaMediaMulher = Relatorio.calAlturaMediaMulher(atletas);
         if (alturaMediaMulher != -1){
             System.out.printf("Altura média das mulheres: %.2f\n", alturaMediaMulher);
+            System.out.printf("Porcentagem de mulheres: %.1f%%\n", Relatorio.calPorcentagemMulheres(atletas));
         }
         
         scanner.close();
