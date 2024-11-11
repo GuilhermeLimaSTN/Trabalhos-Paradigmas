@@ -9,6 +9,20 @@
             "name": "Main",
             "request": "launch",
             "mainClass": "Atletas.Main",
+            "projectName": "Java_4f1ec867"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "Lampada.Main",
+            "projectName": "Java_4f1ec867"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "Atletas.Main",
             "projectName": "TrabalhoParadigmas - Bar_a0767b13"
         },
         {

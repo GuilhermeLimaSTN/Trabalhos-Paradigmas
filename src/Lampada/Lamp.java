@@ -11,7 +11,7 @@ public class Lamp {
     private double preço;
     private boolean ligada;
 
-    public Lamp (cor, marca, modelo, volts, tipo, garantia, preço){
+    public Lamp(String cor, String marca, String modelo, int volts, String tipo, String garantia, double preço){
         this.cor = cor;
         this.marca = marca;
         this.modelo = modelo;
@@ -51,7 +51,7 @@ public class Lamp {
     }
 
     public void setVolts(int volts){
-        this.volts = volts
+        this.volts = volts;
     }
 
     public String getTipo(){
@@ -67,7 +67,7 @@ public class Lamp {
     }
 
     public void setGarantia(String garantia){
-        this.garantia = garantia
+        this.garantia = garantia;
     }
 
     public double getPreço(){
