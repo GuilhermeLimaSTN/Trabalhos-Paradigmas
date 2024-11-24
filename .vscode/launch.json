@@ -8,6 +8,13 @@
             "type": "java",
             "name": "Main",
             "request": "launch",
+            "mainClass": "JogoDaVelha.Main",
+            "projectName": "Java_4f1ec867"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
             "mainClass": "Atletas.Main",
             "projectName": "Java_4f1ec867"
         },
